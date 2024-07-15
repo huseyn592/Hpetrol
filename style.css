@@ -1,0 +1,282 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+    list-style: none;
+}
+
+
+
+
+.headerSection{
+    background-color: rgb(84, 13, 13);
+    height: 600px;
+    width: 800px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.headerSection h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.headerSection span{
+    font-size: 60px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 250px 0px 200px;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+
+
+/* MAIN */
+
+.text li{
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.text{
+    padding: 70px 60px 0px 60px;
+   
+}
+
+.buttons{
+    padding: 90px 150px 0px 150px;
+   display: flex;
+}
+
+.buttons button{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px ;
+    border: 0px;
+    font-size: 20px;
+    transition: all .5s;
+    cursor: pointer;
+    
+}
+
+.buttons button:hover{
+    color: white;
+    background-color: black;
+}
+
+.input{
+   padding-top: 40px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.input label{
+    color: white;
+    font-size: 20px;
+}
+
+.input input{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    padding-left: 15px;
+}
+
+
+
+.input2{
+display: flex;
+align-items: center;
+gap: 36px;
+}
+
+
+/* SUAL */
+
+.mainSection{
+    background-color: rgb(84, 13, 13);
+    height: 400px;
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 30px;
+
+    display: none;     /* ||| */
+}
+
+.mainSection h2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.inputSual{
+    padding: 120px 120px 0px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sual1{
+    display: flex;
+}
+
+
+.sual2{
+    display: flex;
+    align-items: center;
+gap: 36px;
+}
+
+
+.inputSual label{
+    color: white;
+    font-size: 20px;
+}
+
+.inputSual input{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    padding-left: 15px;
+}
+
+
+.confrimBtn{
+    
+    width: 100px;
+    height: 30px;
+    border-radius: 20px ;
+    border: 0px;
+    font-size: 20px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+
+.confrimBtn:hover{
+    color: white;
+    background-color: black;
+}
+
+.cnfBtn{
+    padding: 50px 200px 20px 200px ;
+}
+
+
+
+/* RESPONSIV */
+
+
+@media only screen and (max-width: 600px) {
+    
+.headerSection{
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 13px;
+}
+
+.logo span{
+    font-size: 15px;
+}
+
+.logo img{
+    width: 50px;
+    height: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.buttons button{
+    width: 70px;
+    height: 30px;
+    font-size: 13px;
+}
+
+
+.text li{
+    font-size: 15px
+};
+
+.input{
+    padding-left: 70px;
+}
+
+.input input{
+    width: 100px;
+    height: 30px;
+}
+
+.input label{
+    font-size: 15px;
+}
+
+/* MAIN */
+
+.mainSection{
+    width: 100%;
+}
+
+.mainSection h2{
+    font-size: 20px;
+}
+
+
+.inputSual{
+    padding-top: 40px;
+}
+
+.inputSual input{
+    width: 100px;
+height: 30px;
+}
+
+.inputSual label{
+    font-size: 15px;
+}
+
+.Sual1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Sual2{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.cnfBtn button{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+}
+
+
+}
